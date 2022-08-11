@@ -24,3 +24,20 @@ window.onscroll = () =>{
    menuBtn.classList.remove('fa-times');
    navbar.classList.remove('active');
 }
+
+function openPage(){
+   var buscar =  document.getElementById("search-box").value;
+
+   if ( buscar === "moletom" || "sueter"){
+      window.open("http://127.0.0.1:5500/moletom.html", "_top");
+   }
+
+   if ( buscar ===  "bermudas"){
+   window.open("/bermudas.html", "_top");
+   }
+
+}
+
+
+
+ 
