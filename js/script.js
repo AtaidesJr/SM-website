@@ -29,7 +29,7 @@ function openPage(){
    var buscar =  document.getElementById("search-box").value;
 
    if ( buscar === "moletom" || "sueter"){
-      window.open("http://127.0.0.1:5500/moletom.html", "_top");
+      window.open("/moletom.html", "_top");
    }
 
    if ( buscar ===  "bermudas"){
