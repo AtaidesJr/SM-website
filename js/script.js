@@ -25,14 +25,16 @@ window.onscroll = () =>{
    navbar.classList.remove('active');
 }
 
+/* ------ FUNÇÃO DE BUSCAR POR PAGINAS ------*/
+
 function openPage(){
    var buscar =  document.getElementById("search-box").value;
 
-   if ( buscar === "moletom" || "sueter"){
+   if ( buscar === "moletom" || buscar === "sueter"){
       window.open("/moletom.html", "_top");
    }
 
-   if ( buscar ===  "bermudas"){
+   if ( buscar ===  "bermudas" ||  "Bermudas"){
    window.open("/bermudas.html", "_top");
    }
 

@@ -252,6 +252,7 @@ section {
 
 .menu .box-container .box {
   text-align: center;
+  justify-content: center;
 }
 
 .menu .box-container .box:hover img {
@@ -282,11 +283,18 @@ section {
   color: #fff;
 }
 
-.menu .box-container .box .content .price {
+.menu .box-container .box .content .teste {
+  font-size: 2rem;
+  line-height: 50%;
+  color: white;
+}
+
+.menu .box-container .box .content .preco {
   font-size: 2rem;
   line-height: 2;
-  color: #aaa;
+  color: white;
 }
+
 
 .about {
   display: -webkit-box;
@@ -588,9 +596,130 @@ section {
   padding-top: 2rem;
 }
 
-.footer .credit span {
+.footer .credit .span1 {
   color: #eacf4f;
 }
+
+
+/* ------ BOTÃO ADD-CART -----*/
+
+.add-cart {
+  display: inline-block;
+  margin-top: 1rem;
+  cursor: pointer;
+  color: #fff;
+  border: 0.2rem solid rgba(255, 255, 255, 0.3);
+  border-radius: 20px;
+  background: no-repeat;
+  font-size: 1.7rem;
+  padding: 1rem 3rem;
+}
+
+.add.cart:hover {
+  color: #000;
+  background: #fff;
+}
+
+
+
+
+/* ---------- CARRINHO -------- */
+
+.products-container {
+  color: #eacf4f;
+  max-width: 650px;
+  justify-content: space-around;
+  margin: 0 auto;
+  margin-top: 150px;
+}
+
+.products-container ion-icon {
+  font-size: 25px;
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.product-header {
+  width: 100%;
+  max-width: 650px;
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 4px solid white;
+  margin: 0 auto;
+
+}
+
+.product-title {
+  width: 45%;
+}
+
+.price {
+  width: 15%;
+  border-bottom: 1px solid white;
+  display: flex;
+  align-items: center;
+  font-size: 180%;
+}
+
+.quantity {
+  width: 30%;
+  border-bottom: 1px solid white;
+  display: flex;
+  align-items: center;
+  font-size: 130%;
+}
+
+.total {
+  width: 10%;
+  border-bottom: 1px solid white;
+  display: flex;
+  align-items: center;
+  font-size: 180%;
+}
+
+.product {
+  width: 45%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid white;
+}
+
+.product ion-icon{
+  cursor: pointer;
+}
+
+.products {
+  width:  100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.products img{
+  width: 75px;
+}
+
+.basketTotalContainer {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  padding: 10px 0;
+}
+
+.basketTotalTitle {
+  width: 30%;
+}
+
+.basketTotal{
+  width: 10%;
+}
+
+/* ------ RESPONSIVO -------*/
+
 
 @media (max-width: 1200px) {
   .header {
@@ -648,12 +777,22 @@ section {
   .home .content h3 {
     font-size: 2.5rem;
   }
+
+  .products-container{
+    width: 80%;
+  }
 }
 
 @media (max-width: 450px) {
   html {
     font-size: 50%;
   }
+
+  .products-container{
+    flex-wrap: block;
+    width: 70%;
+  }
+
 }
 
 @media (max-width: 450px){

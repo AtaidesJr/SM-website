@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CARRINHO</title>
+<!-- font awesome cdn link  -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+<!-- custom css file link  -->
+<link rel="stylesheet" href="css/style.css">
+
+
+
+</head>
+<body>
+
+<!-- HEADER section COMEÇO  -->
+
+<header class="header">
+
+   <div id="menu-btn" class="fas fa-bars icons"></div>
+   <div id="search-btn" class="fas fa-search icons"></div>
+
+   <nav class="navbar">
+      <a href="index.html">home</a>
+      <a href="index.html">camisas</a>
+      <a href="#about">Calças</a>
+      <a href="bermudas.html">bermudas</a>
+      <a href="moletom.html">Moletom</a>
+      <a href="#contact">Contatos</a>
+   
+   </nav>
+
+   <a href="carrinho.html" class="cart">
+      <i class="fas fa-shopping-cart icons"><span>0</span></i>
+   </a>
+
+   <a href="#home" class="logo"><img src="#" alt=""></a>
+
+   <form action="" method="post" class="search-form">
+      <input type="search" name="" placeholder="Buscar por Produtos..."  id="search-box" onchange="openPage()" required>
+      <label for="search-box" class="fas fa-search icons"></label>
+   </form>
+
+
+</header>
+<!-- HEADER section FINAL  -->
+
+<!---- PRODUTOS DO CARRINHO ---->
+<div class="products-container">
+   <div class="product-header">
+      <h1 class="product-title">PRODUTOS</h1>
+      <h1 class="price">PREÇO</h1>
+      <h1 class="quantity">QUANTIDADE</h1>
+      <h1 class="total">TOTAL</h1>
+   </div>
+   <div class="products">
+
+   </div>
+</div>
+
+<!-- custom js file link      -->
+ <script src="js/script.js"></script>
+ <script src="js/main.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+ <script>
+ 
+ AOS.init({
+    duration: 800,
+ });
+ 
+ </script>
+ <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+ <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+     
+ </body>
+ </html>

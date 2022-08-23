@@ -1,18 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SM - STORE</title>
-
-    <!-- font awesome cdn link  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
-
-    <!-- custom css file link  -->
-    <link rel="stylesheet" href="css/style.css">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SM - STORE</title>
+<!-- font awesome cdn link  -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+<!-- custom css file link  -->
+<link rel="stylesheet" href="css/style.css">
 
 </head>
 <body>
@@ -34,7 +31,9 @@
    
    </nav>
 
-   <a href="#" class="fas fa-shopping-cart icons"></a>
+   <a href="carrinho.html" class="cart">
+      <i class="fas fa-shopping-cart icons"><span>0</span></i>
+   </a>
 
    <a href="#home" class="logo"><img src="#" alt=""></a>
 
@@ -100,73 +99,73 @@
    <div class="box-container">
 
       <div class="box" data-aos="fade-up" data-aos-delay="150">
-         <img src="images/Burberry.jfif" alt="">
+         <img src="images/burberry.jpg" alt="">
          <div class="content">
             <h3>Camisa Burberry</h3>
-            <div class="price">R$ 50,00
+            <div class="preco">R$50
                <p>M & G</p>
             </div>
-            <a href="#" class="btn">adicionar ao carrinho </a>
+            <h6 class="add-cart">adicionar ao carrinho </h6>
          </div>
       </div>
 
       <div class="box" data-aos="fade-up" data-aos-delay="300">
-         <img src="images/Gucci.jfif" alt="">
+         <img src="images/gucci.jpg" alt="">
          <div class="content">
             
             <h3>Camisa Gucci</h3>
-            <div class="price">R$ 50,00
+            <div class="preco">R$45
                <p>P & M</p>
             </div>
-            <a href="#" class="btn">adicionar ao carrinho</a>
+            <h6 class="add-cart">adicionar ao carrinho</h6>
          </div>
       </div>
 
       <div class="box" data-aos="fade-up" data-aos-delay="450">
-         <img src="images/Balmain.jfif" alt="">
+         <img src="images/balmain.jpg" alt="">
          <div class="content">
            
             <h3>Camisa Balmain</h3>
-            <div class="price">R$ 50,00
+            <div class="preco">R$40
                <p>GG & XL</p>
             </div>
-            <a href="#" class="btn">adicionar ao carrinho </a>
+            <h6 class="add-cart">adicionar ao carrinho </h6>
          </div>
       </div>
 
       <div class="box" data-aos="fade-up" data-aos-delay="600">
-         <img src="images/camisa3.jfif" alt="">
+         <img src="images/lost.jpg" alt="">
          <div class="content">
             
             <h3>Camisa Lost</h3>
-            <div class="price">R$ 50,00
+            <div class="preco">R$35
             <p>M & GG</p>
             </div>
-            <a href="#" class="btn">adicionar ao carrinho </a>
+            <h6 class="add-cart">adicionar ao carrinho </h6>
          </div>
       </div>
 
       <div class="box" data-aos="fade-up" data-aos-delay="750">
-         <img src="images/Camisa1.jfif" alt="">
+         <img src="images/MCD.jpg" alt="">
          <div class="content">
             
             <h3>Camisa MCD</h3>
-            <div class="price">R$ 50,00
+            <div class="preco">R$ 30,00
             <p>M & G</p>
-         </div>
-            <a href="#" class="btn">adicionar ao carrinho</a> 
+            </div>
+            <h6 class="add-cart">adicionar ao carrinho</h6> 
          </div>
       </div>
 
       <div class="box" data-aos="fade-up" data-aos-delay="900">
-         <img src="images/Camisa2.jfif" alt="">
+         <img src="images/lost1.jpg" alt="">
          <div class="content">
             
             <h3>Camisa Lost</h3>
-            <div class="price">R$ 50,00
-               <p>P , M & G</p>
+            <div class="preco">R$ 55,00
+               <p>P & M </p>
             </div>
-            <a href="#" class="btn">adicionar ao carrinho</a>
+            <h6 class="add-cart">adicionar ao carrinho</h6>
          </div>
       </div>
       
@@ -367,7 +366,7 @@
       <a href="#blogs" class="btn">blogs</a>
    </div>
 
-   <p class="credit"> Copyrigth© - Desenvolvido por <span>Ataides Jr</span> !</p>
+   <p class="credit"> Copyrigth© - Desenvolvido por <span class="span1">Ataides Jr</span> !</p>
 
 </section>
 
@@ -377,7 +376,7 @@
 
 <!-- custom js file link      -->
 <script src="js/script.js"></script>
-
+<script src="js/main.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 
 <script>
